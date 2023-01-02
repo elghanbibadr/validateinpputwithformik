@@ -68,3 +68,33 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  width:80%;
+  justify-items: center;
+  
+}
+
+input{
+   margin-block: 1rem;
+  padding: 10px;
+}
+
+.error{
+  color: red;
+  margin-bottom: 10px;
+  transform: translateY(-10px);
+}
+
+
+.validInput{
+  border: 2px solid greenyellow;
+}
+
+.invalidInput{
+border: 2px solid red;
+
+}
